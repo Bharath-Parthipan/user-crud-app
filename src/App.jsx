@@ -14,11 +14,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* <div className="App">
-        <h1>User CRUD App</h1>
-        <UserList />
-      </div> */}
     </>
   );
 }
