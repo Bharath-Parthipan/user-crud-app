@@ -1,4 +1,5 @@
-import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPenToSquare, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 
 const User = ({ user, onDelete, onEdit }) => (
@@ -9,9 +10,9 @@ const User = ({ user, onDelete, onEdit }) => (
     <td>{user.username}</td>
     <td>{user.phone}</td>
     <td>{user.website}</td>
-    <td>
-      <Button variant="success" onClick={() => onEdit(user)}>Edit</Button>{" "}
-      <Button variant="danger" onClick={() => onDelete(user.id)}>Delete</Button>
+    <td className="text-center">
+      <FontAwesomeIcon icon={faPenToSquare} onClick={() => onEdit(user)} style={{ color: "blue", paddingRight: "15px" }} />
+      <FontAwesomeIcon icon={faTrashCan} onClick={() => onDelete(user.id)} style={{ color: "red" }} />
     </td>
   </tr>
 );

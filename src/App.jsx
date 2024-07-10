@@ -8,8 +8,8 @@ function App() {
     <>
       <div className="Master-container">
         <div className="Main-container">
-          <div className="container">
-            <h1 className="text-white text-center py-5">User CRUD App</h1>
+          <div className="container-fluid">
+            <h1 className=" text-white text-center py-3 py-md-4 py-lg-5">React Axios Task</h1>
             <UserList />
           </div>
         </div>
