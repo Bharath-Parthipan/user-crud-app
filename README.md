@@ -1,8 +1,24 @@
-# React + Vite
+# User CRUD App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that allows for CRUD operations with user data using Axios to interact with a mock API.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Bharath-Parthipan/user-crud-app.git
+   cd user-crud-app
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the application:
+   ```bash
+   npm run dev
+## Features
+- Display a list of users
+- Add a new user
+- Edit an existing user
+- Delete a user
+
+## Api
+This application uses the following mock API: https://jsonplaceholder.typicode.com/users
